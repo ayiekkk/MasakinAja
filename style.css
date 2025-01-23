@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-home {
+    background-color: aqua;
+}
+
+.navbar-home .logo img{
+    width: 75px; height: 75px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.navbar-home .logo label {
+    
+}
