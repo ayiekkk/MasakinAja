@@ -76,6 +76,7 @@
 
 .kolom1 {
     background-color: #FFE8B6;
+    border: 2px solid #A87676; 
     position: relative;
     width: 600px;
     height: 400px;
@@ -85,25 +86,69 @@
 }   
 
 .resep{
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    position: relative;
+    top: 3rem;
 
 }
 
 .judul{
-    padding-top: 100px;
-    margin-left: 70px;
+    /* padding-top: 100px;
+    margin-left: 70px; */
+    position: relative;
+    top: 1rem;
+    right: -5rem;
 }
 
 .lingkaran {
     width: 50px;         
     height: 50px;        
     background-color: #fef4f4; 
-    border-radius: 50%;   
-    margin-top: -280px;
-    margin-left: 10px;
+    border: 1px solid #1e1d1d; 
+    border-radius: 50%;             
+    position: relative;
+    top: -10rem;
+    right: -1rem;
 } 
 
-.horizontal-line2 {
-    border-top: 5px solid #A87676; 
-    margin: 12px 0;
+.horizontal-line2{
+    border-top: 5px solid #A87676;
+    position: relative;
+    top: -10rem;
+}
+
+
+.kolom2{
+    background-color: #ffffff;
+    border: 5px solid #A87676; 
+    border-radius: 1rem;
+    position: relative;
+    width: 850px;
+    height: 450px;
+    right: -12rem;
+    top: -6rem;
+     
+}
+
+.tutor{
+    position: relative;
+    right: -3rem;
+    top: 1rem;
+    font-family: sans-serif;
+}
+
+ol {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+li {
+   position: relative;
+   top: 2rem;
+}
+
+.img2{
+    /* position: relative; */
+    width: 50%;
+    height: 100%;
 }
