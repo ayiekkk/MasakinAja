@@ -1,3 +1,5 @@
+/* HALAMAN ATAS */
+
 .material-symbols-outlined {
     color: #A87676;
     font-size: 20px;
@@ -40,6 +42,8 @@
     text-align: justify;
 }
 
+/* BEBERAPA GARIS */
+
 .garis1 {
     position: absolute;
     width: 100%;
@@ -49,11 +53,22 @@
     top: 500px;
 }
 
+.garis2 {
+    position: absolute;
+    width: 100%;
+    border-top: 4px solid #A87676;
+    opacity: 100%;
+    width: 99%;
+    top: 78rem;
+}
+
+/* RESEP */
+
 .tmpkan1 {
     background-color: #A87676;
     position: absolute;
     top: 600px;
-    right: 80px;
+    left: 50rem;
     height: 500px;
     width: 400px;
 }
@@ -62,18 +77,10 @@
     background-color: #FFE8B6;
     position: absolute;
     top: 650px;
-    left: 80px;
+    left: 320px;
     height: 500px;
-    width: 65rem;
+    width: 50rem;
     border: 5px solid #A87676;
-}
-
-.judul{
-    /* padding-top: 100px;
-    margin-left: 70px; */
-    position: relative;
-    top: 41rem;
-    right: -10rem;
 }
 
 .lingkaran {
@@ -83,10 +90,86 @@
     border: 1px solid #1e1d1d; 
     border-radius: 50%;             
     position: relative;
-    top: 37rem;
-    right: -6rem;
+    top: 1rem;
+    left: 1rem;
     clip-path: circle(50px at center);
-} 
+}
+
+.lingkarantxt {
+    position: absolute;
+    top: 2px;
+    left: 80px;
+    font-family: 'Inter', sans-serif;
+}
+
+.isirsp {
+    position: relative;
+    margin-top: -65px;
+    top: 90px;
+    left: 50px;
+    width: 45rem;
+    height: 100px;
+    font-size: x-large;
+    font-weight: 100;
+}
+
+/* HOW TO MAKE */
+
+.tutor {
+    position: absolute;
+    border-radius: 10px;
+    border: 5px solid #A87676;
+    top: 90rem;
+    left: 10rem;
+    width: 75rem;
+    height: 50rem;
+}
+
+.tutor h1 {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.tutor h2 {
+    position: relative;
+    margin-top: -8px;
+    top: 100px;
+    left: 30px;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+}
+
+/* BACKGROUND SUPPORT */
+
+.foodbg {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 150rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .judul{
+    padding-top: 100px;
+    margin-left: 70px;
+    position: relative;
+    top: 41rem;
+    right: -10rem;
+
 
 .resep{
     position: relative;
@@ -140,7 +223,7 @@ li {
     left: -5rem;
 }
 .foodbg {
-    height: 100%;
+    height: 100%                ;
     width: 100%;
     position: relative;
     top: 70rem;
@@ -227,5 +310,5 @@ li {
 
 .arefcreditsisa {
     font-weight: 700;
-    font-size: x-large;
-} 
+    font-size: x-large;
+} */

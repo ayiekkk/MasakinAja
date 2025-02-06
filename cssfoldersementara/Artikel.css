@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 100%;
+    margin: auto;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 20px;
+}
+
+.card {
+    display: flex 100%;
+    background: #DFD4C1;
+    margin: 5% auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+ /* {
+    width: 40%;
+    height: 200px;
+    object-fit: cover;
+
+} */
+.card .Konten {
+    padding: 30px;
+}
+
+.card {
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+h3  {
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: relative;
+    object-fit: cover;
+}
+
+.TempatDanTanggal {
+    font-size: 12px;
+    color: gray;
+}
+/* footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 12px;
+} */
