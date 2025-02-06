@@ -1,0 +1,314 @@
+/* HALAMAN ATAS */
+
+.material-symbols-outlined {
+    color: #A87676;
+    font-size: 20px;
+    position: absolute;
+}
+
+.JudulBack {
+    color: #A87676;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.GmbrPP {
+    position: absolute;
+    height: 250px;
+    width: auto;
+    top: 100px;
+    left: 20px;
+}
+
+.desk1 {
+    position: absolute;
+    left: 280px;
+    top: 85px;
+    font-size: 30px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.desk2 {
+    position: absolute;
+    left: 30px;
+    top: 345px;
+    font-size: 30px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 100;
+    text-align: justify;
+}
+
+/* BEBERAPA GARIS */
+
+.garis1 {
+    position: absolute;
+    width: 100%;
+    border-top: 4px solid #A87676;
+    opacity: 100%;
+    width: 99%;
+    top: 500px;
+}
+
+.garis2 {
+    position: absolute;
+    width: 100%;
+    border-top: 4px solid #A87676;
+    opacity: 100%;
+    width: 99%;
+    top: 78rem;
+}
+
+/* RESEP */
+
+.tmpkan1 {
+    background-color: #A87676;
+    position: absolute;
+    top: 600px;
+    left: 50rem;
+    height: 500px;
+    width: 400px;
+}
+
+.tmpkan2 {
+    background-color: #FFE8B6;
+    position: absolute;
+    top: 650px;
+    left: 320px;
+    height: 500px;
+    width: 50rem;
+    border: 5px solid #A87676;
+}
+
+.lingkaran {
+    width: 50px;         
+    height: 50px;        
+    background-color: #fef4f4; 
+    border: 1px solid #1e1d1d; 
+    border-radius: 50%;             
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    clip-path: circle(50px at center);
+}
+
+.lingkarantxt {
+    position: absolute;
+    top: 2px;
+    left: 80px;
+    font-family: 'Inter', sans-serif;
+}
+
+.isirsp {
+    position: relative;
+    margin-top: -65px;
+    top: 90px;
+    left: 50px;
+    width: 45rem;
+    height: 100px;
+    font-size: x-large;
+    font-weight: 100;
+}
+
+/* HOW TO MAKE */
+
+.tutor {
+    position: absolute;
+    border-radius: 10px;
+    border: 5px solid #A87676;
+    top: 90rem;
+    left: 10rem;
+    width: 75rem;
+    height: 50rem;
+}
+
+.tutor h1 {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.tutor h2 {
+    position: relative;
+    margin-top: -8px;
+    top: 100px;
+    left: 30px;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+}
+
+/* BACKGROUND SUPPORT */
+
+.foodbg {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 150rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .judul{
+    padding-top: 100px;
+    margin-left: 70px;
+    position: relative;
+    top: 41rem;
+    right: -10rem;
+
+
+.resep{
+    position: relative;
+    top: 40rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: justify;
+
+}
+ol {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+li {
+   position: relative;
+   top: 2rem;
+   left: 5rem;
+}
+
+.garis2 {
+    position: absolute;
+    width: 100%;
+    border-top: 4px solid #A87676;
+    opacity: 100%;
+    width: 99%;
+    top: 500px;
+}
+
+.kolom2{
+    background-color: #ffffff;
+    border: 5px solid #A87676; 
+    border-radius: 1rem;
+    position: relative;
+    width: 850px;
+    height: 450px;
+    right: -11rem;
+    top: 65rem;
+}
+
+.tutor{
+    position: relative;
+    right: -3rem;
+    top: 1rem;
+    font-family: sans-serif;
+   color: #1e1d1d;
+}
+
+.cara{
+    position: relative;
+    left: -5rem;
+}
+.foodbg {
+    height: 100%                ;
+    width: 100%;
+    position: relative;
+    top: 70rem;
+}
+.footeraseli {
+    background-color: #A87676;
+    height: 25rem;
+    width: 100%;
+    position: relative;
+    top: 60rem;
+}
+.logoft {
+    position: relative;
+    left: 3rem;
+    top: 1rem;
+    font-size: x-large;
+    color: azure;
+    font-weight: bold;
+}
+
+.logoft img {
+    width: 70px;
+    border-radius: 100%;
+}
+.footerterakhir {
+    position: relative;
+    background-color: #FFE8B6;
+    text-align: center;
+    top: 6rem;
+    height: 70px;
+    padding-top: 25px;
+    color: #505050;
+    font-weight: 700;
+}
+.tulisan1 {
+    position: relative;
+    width: 30rem;
+    font-weight: 400;
+    font-size: 80%;
+}
+
+.tulisan2 {
+    position: relative;
+    top: -18rem;
+    left: 32rem;
+    width: 30rem;
+    font-weight: 400;
+    text-align: center;
+    height: 15rem;
+    font-size: 80%;
+}
+.tulisan3 a, h2 {
+    position: relative;
+    color: rgb(22, 23, 23);
+    text-decoration: none;
+    left: 8px;
+    right: 10ew;
+}
+
+.deskripsi {
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.judulds {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.bogatext {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 180%;
+    position: absolute;
+     top: 10px;
+    left: 10px;
+}
+.arefcredit {
+    color: #303A89;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.arefcreditsisa {
+    font-weight: 700;
+    font-size: x-large;
+} */
