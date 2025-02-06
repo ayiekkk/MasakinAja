@@ -8,29 +8,45 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.navbar-brand img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.background {
+    /* background-color: aquamarine; */
+    position: relative;
+    
 }
 
-.container-img {
+.background img {
+    width: 100%;
+}
+
+.identitas img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 12px;
     position: absolute;
     top: 0;
-    z-index: -1;
+    left: 0;
 }
 
-a .navbar-brand  {
+.identitas label {
+    font-size: 18px;
+    font-weight: 600;
     color: white;
+    top: 35px;
+    left: 95px;
+    position: absolute;
 }
 
 .hamburger {
     display: inline-block;
     cursor: pointer;
-    padding: 15px;
+    margin: 26px;
     z-index: 1;
     font-size: 30px;
     transition: transform 0.3s ease;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .side-menu {
@@ -77,6 +93,65 @@ a .navbar-brand  {
     content: '\f00d';
 }
 
-.ikilohinput {
-    
+.search-container {
+position: absolute;
+display: flex;
+align-items: center;
+top: 20rem;
+left: 30rem;
+}
+
+.search-input {
+padding: 10px 35px 10px 15px; /* Menambahkan ruang untuk ikon */
+font-size: 16px;
+border: 2px solid #ccc;
+border-radius: 15px;
+width: 400px;
+height: 4rem;
+}
+
+.search-icon {
+position: absolute;
+left: 0;
+color: #888;
+font-size: 18px;
+pointer-events: none; /* Agar ikon tidak mengganggu klik input */
+}
+
+.search-input:focus {
+outline: none;
+border-color: #4CAF50;
+}
+
+.search-input::placeholder {
+color: #aaa;
+}
+
+.juduls {
+    position: absolute;
+    top: 15rem;
+    left: 28rem;
+    color: aliceblue;
+    font-size: 70px;
+}
+
+.promosi {
+    position: relative;
+    top: 5rem;
+}
+
+.promosi img {
+    position: absolute;
+    left: 13rem;
+    height: 500px;
+    width: auto;
+}
+
+.grskhatulistiwa {
+    position: relative;
+    width: 100%;
+    border-top: 5px solid #A87676;
+    opacity: 100%;
+    width: 100%;
+    top: 41rem;
 }

@@ -3,55 +3,89 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    text-align: center;
+}
+.container {
+    max-width: 100%;
+    margin: auto;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* .container {
-    width: 70%;
-    margin: 30px auto;
+main {
     padding: 20px;
-    background: #fff;
+}
+
+.card {
+    padding: 20px 20px 20px;
+    display: flex ;
+    background: #f8d6d6;
+    margin: 50px auto;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-} */
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 
-h2, h3 {
-    color: #A87676;
+ .card  img {
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    position: center;
+}
+
+.card .Konten {
+    padding: 30px;
+}
+
+.card {
+    font-size: 25px;
     margin-bottom: 10px;
-    font-weight: bold;
+    position: relative;
 }
 
-.box {
-    background: #f8f8f8;
-    padding: 12px;
-    border-radius: 7px;
-    margin: 35px auto;
-    border: 1px solid #A87676;
-    display: inline-block;
-    min-width: 280px;
-    font-weight: bold;
-    transition: .3s ease;
-    box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.5);
-}
-
-.utama {
-    font-size: 18px;
+  h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: relative;
+    object-fit: cover;
 }
 
 .row {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    /* gap: 50px; */
     margin-top: 20px;
     flex-wrap: wrap;
 }
 
 .column {
-    flex: 1;
+    /* flex: 1; */
     min-width: 280px;
 }
 
-.box:hover {
-    transform: translateY(-10px) scale(1.10);
-    cursor: pointer;
+.war1{
+    color: #A87676;
+    position: relative;
+    left: 10rem;
+
+
+}
+
+.war2{
+    color: #DFD4C1;
+    position: relative;
+    left: 1rem;
+}
+
+
+/* .TempatDanTanggal {
+    font-size: 12px;
+    color: gray;
+} */
+
+.well{
+    position: relative;
+    left: 55rem;
+    top: 40px;
+    color:#A87676 ;
+    text-decoration: none;
 }
