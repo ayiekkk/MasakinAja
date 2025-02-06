@@ -7,3 +7,8 @@ function toggleMenu() {
   
   hamburgerIcon.classList.toggle('active');
 }
+
+function search() {
+  const query = document.getElementById('search').value;
+  alert('Mencari: ' + query);
+}
