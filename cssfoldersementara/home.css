@@ -1,19 +1,82 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.navbar-home {
-    background-color: aqua;
+body {
+    font-family: Arial, sans-serif;
 }
 
-.navbar-home .logo img{
-    width: 75px; height: 75px;
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    margin: 10px;
 }
 
-.navbar-home .logo label {
+.container-img {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+a .navbar-brand  {
+    color: white;
+}
+
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px;
+    z-index: 1;
+    font-size: 30px;
+    transition: transform 0.3s ease;
+}
+
+.side-menu {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #3b82f6;
+    transition: left 0.3s ease;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding-top: 50px;
+}
+
+.side-menu ul li {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.side-menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu ul li a i {
+    margin-right: 10px;
+}
+
+.side-menu.open {
+    left: 0;
+}
+
+.hamburger.active i {
+    transform: rotate(45deg);
+}
+
+.hamburger.active i::before {
+    content: '\f00d';
+}
+
+.ikilohinput {
     
 }
