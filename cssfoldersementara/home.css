@@ -11,14 +11,14 @@ body {
 .background {
     /* background-color: aquamarine; */
     position: relative;
-    
+
 }
 
 .background img {
     width: 100%;
 }
 
-.identitas img{
+.identitas img {
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -94,64 +94,59 @@ body {
 }
 
 .search-container {
-position: absolute;
-display: flex;
-align-items: center;
-top: 20rem;
-left: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .search-input {
-padding: 10px 35px 10px 15px; /* Menambahkan ruang untuk ikon */
-font-size: 16px;
-border: 2px solid #ccc;
-border-radius: 15px;
-width: 400px;
-height: 4rem;
+    padding: 10px 35px 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
 }
 
 .search-icon {
-position: absolute;
-left: 0;
-color: #888;
-font-size: 18px;
-pointer-events: none; /* Agar ikon tidak mengganggu klik input */
+    position: absolute;
+    left: 0;
+    color: #888;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.search-input:focus~.search-icon {
+    opacity: 0;
 }
 
 .search-input:focus {
-outline: none;
-border-color: #4CAF50;
+    outline: none;
+    /* box-shadow: none; */
+    /* border-color: #4CAF50; */
 }
 
 .search-input::placeholder {
-color: #aaa;
+    color: #aaa;
 }
 
 .juduls {
     position: absolute;
-    top: 15rem;
-    left: 28rem;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: aliceblue;
     font-size: 70px;
 }
 
-.promosi {
-    position: relative;
-    top: 5rem;
+.search-input::placeholder {
+    padding: 30px;
 }
 
-.promosi img {
-    position: absolute;
-    left: 13rem;
-    height: 500px;
-    width: auto;
+.search-container span {
+    padding: 15px;
 }
 
-.grskhatulistiwa {
-    position: relative;
-    width: 100%;
-    border-top: 5px solid #A87676;
-    opacity: 100%;
-    width: 100%;
-    top: 41rem;
-}
+
+
