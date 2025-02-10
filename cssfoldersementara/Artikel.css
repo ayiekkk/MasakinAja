@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+
 .container {
     max-width: 100%;
     margin: auto;
@@ -42,13 +37,6 @@ main {
     position: relative;
 }
 
-  h3 {
-    font-size: 25px;
-    margin-bottom: 10px;
-    position: absolute;
-    object-fit: cover;
-}
-
 .Tanggal {
     font-size: 12px;
     color: #A87676;
@@ -68,34 +56,12 @@ main {
     font-weight: bold
 }
 
-/* footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.footer-content {
-    margin-bottom: 10px;
-}
-
-footer nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-footer nav ul li a {
-    color: white;
+.HrefArtikel {
     text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: absolute;
+    object-fit: cover;
 }
-
-.copyright {
-    margin-top: 10px;
-    font-size: 12px;
-} */
