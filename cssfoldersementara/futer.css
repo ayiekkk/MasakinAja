@@ -87,3 +87,7 @@
     width: 100%;
     top: 25rem;
 }
+
+/* .tesinput:focus ~ .search-icon {
+    opacity: 0;
+} */

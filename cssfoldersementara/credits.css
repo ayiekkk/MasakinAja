@@ -56,102 +56,92 @@ body {
     margin-left: 250px;
 }
 
-/* FOOTER */
+/* ------- */
 
-.foodbg {
-    height: 100%;
+.futerawal{
+    position: relative;
+    top: 20rem;
     width: 100%;
-}
-
-.footeraseli {
+    height: 20rem;
     background-color: #A87676;
-    height: 25rem;
-    width: 100%;
 }
 
-.logoft {
-    margin-left: 3rem;
-    margin-top: 1rem;
-    font-size: x-large;
-    color: azure;
-    font-weight: bold;
+.judulsk1 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
 }
 
-.logoft img {
-    width: 70px;
+.kalimat1 img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 80px;
+    width: auto;
     border-radius: 100%;
 }
 
-.footerterakhir {
-    background-color: #FFE8B6;
-    text-align: center;
-    margin-top: 6rem;
-    height: 70px;
-    padding-top: 25px;
-    color: #505050;
-    font-weight: 700;
-}
-
-.tulisan1 {
-    width: 30rem;
-    font-weight: 400;
-    font-size: 80%;
-}
-
-.tulisan2 {
-    margin-top: -14rem;
-    margin-left: 32rem;
-    width: 30rem;
-    font-weight: 400;
-    text-align: center;
-    height: 15rem;
-    font-size: 80%;
-}
-
-.tulisan3 {
-    margin-top: -15rem;
-    margin-left: 67rem;
-    width: 20rem;
-    height: 10%;
-    font-weight: 400;
-    text-align: center;
-    height: 15rem;
-    text-align: left;
-}
-
-.tulisan3 a, h2 {
-    color: aliceblue;
-    text-decoration: none;
-    margin-left: 8px;
-}
-
-.deskripsi {
-    line-height: 30px;
-    font-family: 'Inter', sans-serif;
-}
-
-.judulds {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-}
-
-.bogatext {
-    font-size: 30px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 180%;
+.desk1 {
     position: absolute;
-    margin-top: 10px;
-    margin-left: 10px;
+    top: 100px;
+    left: 20px;
+    width: 30rem;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
 }
 
-.arefcredit {
-    color: #303A89;
-    font-weight: 700;
-    font-size: x-large;
+.linkcredit {
+    position: absolute;
+    top: 16.5rem;
+    left: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
 }
 
-.arefcreditsisa {
-    font-weight: 700;
-    font-size: x-large;
+/* -------- */
+
+.judulsk2 {
+    position: absolute;
+    top: 20px;
+    right: 180px;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+}
+
+.desk2 {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    width: 30rem;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ------- */
+
+.futerakhir {
+    position: relative;
+    top: 20rem;
+    background-color: #FFE8B6; 
+    width: 100%;
+    height: 50px;
+}
+
+.futerakhir h2 {
+    position: absolute;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    top: -9px;
+    color: #505050;
+}
+
+.foodbg {
+    position: relative;
+    width: 100%;
+    top: 25rem;
 }
