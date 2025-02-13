@@ -57,4 +57,99 @@ h2, h3 {
     cursor: pointer;
 }
 
+/* ------- */
+
+.futerawal{
+    position: relative;
+    top: 20rem;
+    width: 100%;
+    height: 20rem;
+    background-color: #A87676;
+}
+
+.judulsk1 {
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+}
+
+.kalimat1 img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 80px;
+    width: auto;
+    border-radius: 100%;
+}
+
+.desk1 {
+    position: relative;
+    top: 125px;
+    left: 10px;
+    width: 30rem;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.linkcredit {
+    position: absolute;
+    top: 17rem;
+    left: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+/* -------- */
+
+.judulsk2 {
+    position: absolute;
+    top: 40px;
+    right: 180px;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+}
+
+.desk2 {
+    position: absolute;
+    top: 125px;
+    right: 20px;
+    width: 30rem;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ------- */
+
+.futerakhir {
+    position: relative;
+    top: 20rem;
+    background-color: #FFE8B6; 
+    width: 100%;
+    height: 50px;
+}
+
+.futerakhir h2 {
+    position: flex;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    top: -9px;
+    color: #505050;
+}
+
+.foodbg {
+    position: relative;
+    width: 100%;
+    top: 25rem;
+}
+
+/* .tesinput:focus ~ .search-icon {
+    opacity: 0;
+} */
+
 
