@@ -69,10 +69,18 @@ h2, h3 {
 
 .judulsk1 {
     position: absolute;
+<<<<<<< HEAD
+    top: 35px;
+    left: 120px;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+=======
     top: 40px;
     left: 120px;
     color: aliceblue;
     font-family: 'Inter', sans-serif;
+>>>>>>> d905d6b3fcdf0b15c5afb54cbd4a0c3a88c86d69
 }
 
 .kalimat1 img {
@@ -85,6 +93,16 @@ h2, h3 {
 }
 
 .desk1 {
+<<<<<<< HEAD
+    position: absolute;
+    top: 115px;
+    left: 20px;
+    width: 55rem;
+    padding-right: 18rem;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-size: 22.6px;
+=======
     position: relative;
     top: 125px;
     left: 10px;
@@ -92,11 +110,16 @@ h2, h3 {
     color: aliceblue;
     font-family: 'Inter', sans-serif;
 
+>>>>>>> d905d6b3fcdf0b15c5afb54cbd4a0c3a88c86d69
 }
 
 .linkcredit {
     position: absolute;
+<<<<<<< HEAD
+    top: 16.5rem;
+=======
     top: 17rem;
+>>>>>>> d905d6b3fcdf0b15c5afb54cbd4a0c3a88c86d69
     left: 20px;
     font-size: 30px;
     text-decoration: none;
@@ -108,19 +131,35 @@ h2, h3 {
 
 .judulsk2 {
     position: absolute;
+<<<<<<< HEAD
+    top: 35px;
+    right: 180px;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+=======
     top: 40px;
     right: 180px;
     color: aliceblue;
     font-family: 'Inter', sans-serif;
+>>>>>>> d905d6b3fcdf0b15c5afb54cbd4a0c3a88c86d69
 }
 
 .desk2 {
     position: absolute;
+<<<<<<< HEAD
+    top: 115px;
+=======
     top: 125px;
+>>>>>>> d905d6b3fcdf0b15c5afb54cbd4a0c3a88c86d69
     right: 20px;
     width: 30rem;
     color: aliceblue;
     font-family: 'Inter', sans-serif;
+<<<<<<< HEAD
+    font-size: 22.6px;
+=======
+>>>>>>> d905d6b3fcdf0b15c5afb54cbd4a0c3a88c86d69
 }
 
 /* ------- */
@@ -134,11 +173,19 @@ h2, h3 {
 }
 
 .futerakhir h2 {
+<<<<<<< HEAD
+    position: absolute;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    top: 5px;
+=======
     position: flex;
     text-align: center;
     font-family: 'Inter', sans-serif;
     width: 100%;
     top: -9px;
+>>>>>>> d905d6b3fcdf0b15c5afb54cbd4a0c3a88c86d69
     color: #505050;
 }
 
@@ -148,8 +195,11 @@ h2, h3 {
     top: 25rem;
 }
 
+<<<<<<< HEAD
+=======
 /* .tesinput:focus ~ .search-icon {
     opacity: 0;
 } */
 
+>>>>>>> d905d6b3fcdf0b15c5afb54cbd4a0c3a88c86d69
 
