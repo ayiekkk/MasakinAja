@@ -148,5 +148,191 @@ body {
     padding: 15px;
 }
 
+.container-slide {
+    position: absolute;
+    width: 1000px;
+    top: 50rem;
+    left: 15rem;
+}
+
+.garis {
+    position: absolute;
+    width: 100%;
+    border-top: 8px solid #A87676;
+    opacity: 100%;
+    width: 100%;
+    top: 88rem;
+}
+
+/* ARTIKEL */
+.jdartikel {
+    text-align: center;
+    color: #A87676;
+    font-size: 50px;
+}
+
+.artikel {
+    position: relative;
+    top: 45rem; /*posisi top utama satu div*/
+    width: 100%;
+    height: 35rem;
+}
+
+/* KOLOM */
+.jdkolom {
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
+
+.deskolom {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.kolom {
+    position: absolute;
+    background-color: #FFE8B6;
+    border-radius: 10px;
+    width: 30rem;
+    height: 20rem;
+}
+
+.btnclickartikel {
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    width: 40rem;
+    height: 65px;
+    top: 30rem;
+    left: 28rem;
+    background-color: #CA8787;
+}
+
+.btnclickartikel h1 {
+    position: relative;
+    top: 3px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+/* TEMPAT */
+.tmpt1 {
+    top: 100px;
+    left: 10px;
+}
+
+.tmpt2 {
+    top: 100px;
+    left: 32.4rem;
+    background-color: #FFD0D0;
+}
+
+.tmpt3 {
+    top: 100px;
+    left: 64rem;
+}
+
+/* FOOTER */
+.footer {
+    top: 150rem; /*TOP UTAMA DIV*/
+
+    position: absolute;
+    width: 100%;
+    height: 44rem;
+}
+
+.fbgimage {
+    position: relative;
+    width: 100%;
+}
 
 
+
+.footerutm {    
+    position: relative;
+    top: -80px;
+    height: 20rem;
+    background-color: #A87676;
+}
+
+.flogo-text {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 300px;
+    width: 400px;
+}
+
+.flogo {
+    width: 80px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.ftext {
+    position: relative;
+    top: -65px;
+    left: 100px;
+    color: aliceblue;
+    width: 18.5rem;
+}
+
+.fdesklmt1 {
+    position: relative;
+    top: -50px;
+    width: 600px;
+    font-size: 22.6px;
+    color: aliceblue;
+}
+
+.fcredit {
+    position: relative;
+    top: -58px;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #303A89;
+}
+
+
+
+.fabout {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 500px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.fabout h1 {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+.fabout h3 {
+    position: relative;
+    top: 35px;
+    font-size: 22.6px;
+}
+
+
+
+.footerakhr {
+    position: relative;
+    top: -80px;
+    height: 3.5rem;
+    background-color: #FFE8B6;
+}
+
+.footerakhr h2 {
+    position: relative;
+    width: 100%;
+    top: 5px;
+    color: #505050;
+    text-align: center;
+}

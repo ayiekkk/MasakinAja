@@ -1,0 +1,786 @@
+/* HALAMAN HOME ---------------------------------------------------------------------------------------------------- */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.hlhome .body {
+    font-family: Arial, sans-serif;
+}
+
+.hlhome .background {
+    /* background-color: aquamarine; */
+    position: relative;
+}
+
+.hlhome .background img {
+    width: 100%;
+}
+
+.hlhome .identitas img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hlhome .identitas label {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    top: 35px;
+    left: 95px;
+    position: absolute;
+}
+
+.hlhome .hamburger {
+    display: inline-block;
+    cursor: pointer;
+    margin: 26px;
+    z-index: 1;
+    font-size: 30px;
+    transition: transform 0.3s ease;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hlhome .side-menu {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #3b82f6;
+    transition: left 0.3s ease;
+}
+
+.hlhome .side-menu ul {
+    list-style: none;
+    padding-top: 50px;
+}
+
+.hlhome .side-menu ul li {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.hlhome .side-menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.hlhome .side-menu ul li a i {
+    margin-right: 10px;
+}
+
+.hlhome .side-menu.open {
+    left: 0;
+}
+
+.hlhome .hamburger.active i {
+    transform: rotate(45deg);
+}
+
+.hlhome .hamburger.active i::before {
+    content: '\f00d';
+}
+
+.hlhome .search-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hlhome .search-input {
+    padding: 10px 35px 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
+}
+
+.hlhome .search-icon {
+    position: absolute;
+    left: 0;
+    color: #888;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.hlhome .search-input:focus~.search-icon {
+    opacity: 0;
+}
+
+.hlhome .search-input:focus {
+    outline: none;
+    /* box-shadow: none; */
+    /* border-color: #4CAF50; */
+}
+
+.hlhome .search-input::placeholder {
+    color: #aaa;
+}
+
+.hlhome .juduls {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 70px;
+}
+
+.hlhome .search-input::placeholder {
+    padding: 30px;
+}
+
+.hlhome .search-container span {
+    padding: 15px;
+}
+
+.hlhome .container-slide {
+    position: absolute;
+    width: 1000px;
+    top: 50rem;
+    left: 15rem;
+}
+
+.hlhome .garis {
+    position: absolute;
+    width: 100%;
+    border-top: 8px solid #A87676;
+    opacity: 100%;
+    width: 100%;
+    top: 88rem;
+}
+
+/* ARTIKEL */
+.hlhome .jdartikel {
+    text-align: center;
+    color: #A87676;
+    font-size: 50px;
+}
+
+.hlhome .artikel {
+    position: relative;
+    top: 45rem; /*posisi top utama satu div*/
+    width: 100%;
+    height: 35rem;
+}
+
+/* KOLOM */
+.hlhome .jdkolom {
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
+
+.hlhome .deskolom {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.hlhome .kolom {
+    position: absolute;
+    background-color: #FFE8B6;
+    border-radius: 10px;
+    width: 30rem;
+    height: 20rem;
+}
+
+.hlhome .btnclickartikel {
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    width: 40rem;
+    height: 65px;
+    top: 30rem;
+    left: 28rem;
+    background-color: #CA8787;
+}
+
+.hlhome .btnclickartikel h1 {
+    position: relative;
+    top: 3px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+/* TEMPAT */
+.hlhome .tmpt1 {
+    top: 100px;
+    left: 10px;
+}
+
+.hlhome .tmpt2 {
+    top: 100px;
+    left: 32.4rem;
+    background-color: #FFD0D0;
+}
+
+.hlhome .tmpt3 {
+    top: 100px;
+    left: 64rem;
+}
+
+/* HALAMAN ARTIKEL ---------------------------------------------------------------------------------------------------- */
+.hlartikel .container {
+    max-width: 100%;
+    margin: auto;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hlartikel .main {
+    padding: 20px;
+}
+
+.hlartikel card {
+    padding: 20px 20px 20px;
+    display: flex ;
+    background: #DFD4C1;
+    margin: 50px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hlartikel .card  img {
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    position: center;
+}
+
+.hlartikel .card .Konten {
+    padding: 30px;
+}
+
+.hlartikel .card {
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.hlartikel .Tanggal {
+    font-size: 12px;
+    color: #A87676;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    font-weight: bold
+}
+.hlartikel .Tempat {
+    font-size: 12px;
+    color: #A87676;
+    position: absolute;
+    left: 180px;
+    bottom: 0;
+    padding: 20px;
+    font-weight: bold
+}
+
+.hlartikel .HrefArtikel {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: absolute;
+    object-fit: cover;
+}
+
+/* HALAMAN RESEP ---------------------------------------------------------------------------------------------------- */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.hlresep body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.hlresep .card {
+    background-color: #DFD4C1;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    box-shadow: 5px 7px 15px 0px rgba(0, 0, 0, 0.6);
+    transition: .5s ease;
+}
+
+.hlresep .card:hover {
+    transform: translateY(-20px) scale(1);
+
+}
+
+.hlresep .card a:hover {
+    color: #A87676;
+    font-weight: bold;
+}
+
+.hlresep .card:active {
+    transform: translateY(-5px) scaleX(1.1);
+    box-shadow: 10px 10px 15px 0px rgba(122, 96, 96, 0.5) inset;
+}
+
+.hlresep .card a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    line-height: 150px;
+    color: white;
+    font-size: 20px;
+}
+
+.hlresep .wrap-kategori {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 20em;
+}
+
+.hlresep .text {
+    font-size: 35px;
+    text-align: center;
+}
+
+.hlresep .text h3 {
+    color: #A87676;
+}
+
+.hlresep .text h3 span {
+    color: #A69373;
+}
+
+.hlresep .container-resep {
+    margin-top: 100px;
+}
+
+.hlresep .wrap-resep {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hlresep .box {
+    width: 300px;
+    height: 400px;
+    background-color: #DFD4C1;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0px 8px 6px 0px rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    filter: grayscale(100%) opacity(35%);
+    transition: 400ms all ease;
+}
+
+.hlresep .box .gambar img {
+    width: 229px;
+    height: 155px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.hlresep .box .nama {
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 190px;
+    padding-left: 20px;
+}
+
+.hlresep .box .deskripsi {
+    position: absolute;
+    left: 0;
+    top: 235px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hlresep .box .rating {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.hlresep .box .rating i {
+    color: yellow;
+}
+
+.hlresep .box:hover {
+    filter: grayscale(0%) opacity(100%);
+}
+
+/* HALAMAN CREDIT ---------------------------------------------------------------------------------------------------- */
+.hlcredit body {
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ISI */
+
+.hlcredit .Kolom {
+    padding: 50px;
+    margin: 100px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    min-width: 85rem;
+    max-width: 85rem;
+}
+
+.hlcredit .Kolom img {
+    width: 220px;
+    margin-top: -200px;
+    border-radius: 20px;
+}
+
+.hlcredit .nama {
+    color: #004292;
+    font-size: 2rem;
+    margin-left: 250px;
+}
+
+.hlcredit .job {
+    font-size: 22px;
+    margin-left: 250px;
+}
+
+.hlcredit .garis {
+    width: 100%;
+    border-top: 3.5px solid #000000;
+    opacity: 100%;
+    margin: 10px 0;
+    margin-left: 250px;
+    width: 80%;
+}
+
+.hlcredit .bio {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    margin-left: 250px;
+}
+
+.hlcredit .sosmed {
+    font-size: 1.5rem;
+    color: rgb(85, 85, 85);
+    font-weight: 700;
+    margin-left: 250px;
+}
+
+/* HALAMAN STRUKTUR ---------------------------------------------------------------------------------------------------- */
+.hlstruktur * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.hlstruktur h2, h3 {
+    color: #A87676;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hlstruktur .box {
+    background: #f8f8f8;
+    padding: 12px;
+    border-radius: 7px;
+    margin: 35px auto;
+    border: 1px solid #A87676;
+    display: inline-block;
+    min-width: 280px;
+    font-weight: bold;
+    transition: .3s ease;
+    box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hlstruktur .utama {
+    font-size: 18px;
+}
+
+.hlstruktur .row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.hlstruktur .column {
+    flex: 1;
+    min-width: 280px;
+
+}
+
+.hlstruktur .box:hover {
+    transform: translateY(-10px) scale(1.10);
+    cursor: pointer;
+}
+/* RESEP BARU ---------------------------------------------------------------------------------------------------- */
+.hlresepbaru .material-symbols-outlined {
+    color: #A87676;
+    font-size: 20px;
+    position: absolute;
+}
+
+.hlresepbaru .JudulBack {
+    color: #A87676;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.hlresepbaru .GmbrPP {
+    position: absolute;
+    height: 250px;
+    width: auto;
+    top: 100px;
+    left: 20px;
+}
+
+.hlresepbaru .desk1 {
+    position: absolute;
+    left: 280px;
+    top: 85px;
+    font-size: 30px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.hlresepbaru .desk2 {
+    position: absolute;
+    left: 30px;
+    top: 345px;
+    font-size: 30px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 100;
+    text-align: justify;
+}
+
+/* BEBERAPA GARIS */
+
+.hlresepbaru .garis1 {
+    position: absolute;
+    width: 100%;
+    border-top: 4px solid #A87676;
+    opacity: 100%;
+    width: 99%;
+    top: 500px;
+}
+
+.hlresepbaru .garis2 {
+    position: absolute;
+    width: 100%;
+    border-top: 4px solid #A87676;
+    opacity: 100%;
+    width: 99%;
+    top: 78rem;
+}
+
+/* RESEP */
+
+.hlresepbaru .tmpkan1 {
+    background-color: #A87676;
+    position: absolute;
+    top: 600px;
+    left: 50rem;
+    height: 500px;
+    width: 400px;
+}
+
+.hlresepbaru .tmpkan2 {
+    background-color: #FFE8B6;
+    position: absolute;
+    top: 650px;
+    left: 320px;
+    height: 500px;
+    width: 50rem;
+    border: 5px solid #A87676;
+}
+
+.hlresepbaru .lingkaran {
+    width: 50px;         
+    height: 50px;        
+    background-color: #fef4f4; 
+    border: 1px solid #1e1d1d; 
+    border-radius: 50%;             
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    clip-path: circle(50px at center);
+}
+
+.hlresepbaru .lingkarantxt {
+    position: absolute;
+    top: 2px;
+    left: 80px;
+    font-family: 'Inter', sans-serif;
+}
+
+.hlresepbaru .isirsp {
+    position: relative;
+    margin-top: -65px;
+    top: 90px;
+    left: 50px;
+    width: 45rem;
+    height: 100px;
+    font-size: x-large;
+    font-weight: 100;
+}
+
+/* HOW TO MAKE */
+
+.hlresepbaru .tutor {
+    position: absolute;
+    border-radius: 10px;
+    border: 5px solid #A87676;
+    top: 90rem;
+    left: 10rem;
+    width: 75rem;
+    height: 50rem;
+}
+
+.hlresepbaru .tutor h1 {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.hlresepbaru .tutor h2 {
+    position: relative;
+    margin-top: -8px;
+    top: 100px;
+    left: 30px;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+}
+
+/* FOOTER ---------------------------------------------------------------------------------------------------- */
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 44rem;
+}
+
+.fbgimage {
+    position: relative;
+    width: 100%;
+}
+
+
+
+.footerutm {    
+    position: relative;
+    top: -80px;
+    height: 20rem;
+    background-color: #A87676;
+}
+
+.flogo-text {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 300px;
+    width: 400px;
+}
+
+.flogo {
+    width: 80px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.ftext {
+    position: relative;
+    top: -65px;
+    left: 100px;
+    color: aliceblue;
+    width: 18.5rem;
+}
+
+.fdesklmt1 {
+    position: relative;
+    top: -50px;
+    width: 600px;
+    font-size: 22.6px;
+    color: aliceblue;
+}
+
+.fcredit {
+    position: relative;
+    top: -58px;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #303A89;
+}
+
+
+
+.fabout {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 500px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.fabout h1 {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+.fabout h3 {
+    position: relative;
+    top: 35px;
+    font-size: 22.6px;
+}
+
+
+
+.footerakhr {
+    position: relative;
+    top: -80px;
+    height: 3.5rem;
+    background-color: #FFE8B6;
+}
+
+.footerakhr h2 {
+    position: relative;
+    width: 100%;
+    top: 5px;
+    color: #505050;
+    text-align: center;
+}
