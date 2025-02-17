@@ -83,6 +83,7 @@ body {
     display: inline-block;
     filter: grayscale(100%) opacity(35%);
     transition: 400ms all ease;
+    margin: 4em;
 }
 
 .box .gambar img {
