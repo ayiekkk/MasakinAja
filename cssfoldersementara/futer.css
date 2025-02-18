@@ -1,89 +1,101 @@
-/* ------- */
+/* FOOTER */
+.footer {
+    top: 5rem; /*TOP UTAMA DIV*/
 
-.futerawal{
-    position: relative;
-    top: 20rem;
+    position: absolute;
     width: 100%;
+    height: 44rem;
+}
+
+.fbgimage {
+    position: relative;
+    width: 100%;
+}
+
+
+
+.footerutm {    
+    position: relative;
+    top: -80px;
     height: 20rem;
     background-color: #A87676;
 }
 
-.judulsk1 {
-    position: absolute;
-    top: 20px;
-    left: 120px;
-    color: aliceblue;
-    font-family: 'Inter', sans-serif;
+.flogo-text {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 300px;
+    width: 400px;
 }
 
-.kalimat1 img {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    height: 80px;
-    width: auto;
+.flogo {
+    width: 80px;
+    height: auto;
     border-radius: 100%;
 }
 
-.desk1 {
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    width: 30rem;
+.ftext {
+    position: relative;
+    top: -65px;
+    left: 100px;
     color: aliceblue;
-    font-family: 'Inter', sans-serif;
+    width: 18.5rem;
 }
 
-.linkcredit {
-    position: absolute;
-    top: 16.5rem;
-    left: 20px;
-    font-size: 30px;
+.fdesklmt1 {
+    position: relative;
+    top: -50px;
+    width: 600px;
+    font-size: 22.6px;
+    color: aliceblue;
+}
+
+.fcredit {
+    position: relative;
+    top: -58px;
+    font-size: 35px;
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
     font-weight: bold;
+    color: #303A89;
 }
 
-/* -------- */
 
-.judulsk2 {
+
+.fabout {
     position: absolute;
-    top: 20px;
-    right: 180px;
+    top: 10px;
+    right: 15px;
+    width: 500px;
+    height: 300px;
     color: aliceblue;
-    font-family: 'Inter', sans-serif;
 }
 
-.desk2 {
-    position: absolute;
-    top: 100px;
-    right: 20px;
-    width: 30rem;
-    color: aliceblue;
-    font-family: 'Inter', sans-serif;
-}
-
-/* ------- */
-
-.futerakhir {
+.fabout h1 {
     position: relative;
-    top: 20rem;
-    background-color: #FFE8B6; 
-    width: 100%;
-    height: 50px;
-}
-
-.futerakhir h2 {
-    position: absolute;
     text-align: center;
-    font-family: 'Inter', sans-serif;
-    width: 100%;
-    top: -9px;
-    color: #505050;
+    top: 20px;
 }
 
-.foodbg {
+.fabout h3 {
+    position: relative;
+    top: 35px;
+    font-size: 22.6px;
+}
+
+
+
+.footerakhr {
+    position: relative;
+    top: -80px;
+    height: 3.5rem;
+    background-color: #FFE8B6;
+}
+
+.footerakhr h2 {
     position: relative;
     width: 100%;
-    top: 25rem;
+    top: 5px;
+    color: #505050;
+    text-align: center;
 }

@@ -6,12 +6,13 @@ function toggleMenu() {
 
   
   hamburgerIcon.classList.toggle('active');
+<<<<<<< HEAD
 }
-<<<<<<< HEAD:script.js
 
 function search() {
   const query = document.getElementById('search').value;
   alert('Mencari: ' + query);
 }
 =======
->>>>>>> eb4024c80aa5810f9f8d19820f8c24b1a14d2ddb:jsfolder/script.js
+}
+>>>>>>> d905d6b3fcdf0b15c5afb54cbd4a0c3a88c86d69
