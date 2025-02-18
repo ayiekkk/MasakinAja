@@ -1,6 +1,8 @@
-const hamburger = document.getElementsByClassName('hamburger')[0];
+const hamburger = document.querySelector('#hamburgerIcon');
 
 hamburger.addEventListener('click', function () {
+
+  console.log('aktif');
 
   const sideMenu = document.getElementById('sideMenu');
   const hamburgerIcon = document.getElementById('hamburgerIcon');
