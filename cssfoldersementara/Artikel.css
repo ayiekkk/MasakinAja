@@ -1,4 +1,6 @@
-
+*{
+    font-family: Arial, sans-serif;
+}
 .container {
     max-width: 100%;
     margin: auto;
@@ -64,4 +66,8 @@ main {
     margin-bottom: 10px;
     position: absolute;
     object-fit: cover;
+}
+.Pop{
+   text-align: center;
+    color: #A87676;
 }
