@@ -89,7 +89,6 @@
     margin-right: 10px;
 }
 
-<<<<<<< HEAD
 .side-menu.open {
     left: 0;
 }
@@ -99,17 +98,6 @@
 }
 
 .hamburger.active i::before {
-=======
-.side-menu .open {
-    left: 0;
-}
-
-.hamburger .active i {
-    transform: rotate(45deg);
-}
-
-.hamburger .active i::before {
->>>>>>> 1c5ed299da688c08793f662f82faa4d038fa2d50
     content: '\f00d';
 }
 
@@ -168,7 +156,6 @@
     padding: 15px;
 }
 
-<<<<<<< HEAD
 
 /* HALAMAN HOME ---------------------------------------------------------------------------------------------------- */
 /* * {
@@ -178,9 +165,6 @@
 } */
 
 .hlhome .container-slide {
-=======
-/* .hlhome .container-slide {
->>>>>>> 1c5ed299da688c08793f662f82faa4d038fa2d50
     position: absolute;
     width: 1000px;
     top: 50rem;
@@ -253,7 +237,6 @@
 
 
 /* HALAMAN ARTIKEL ---------------------------------------------------------------------------------------------------- */
-<<<<<<< HEAD
 .hlartikel a {
     text-decoration: none;
 }
@@ -276,43 +259,6 @@
 }
 
 .hlartikel .foto {
-=======
-/* .hlartikel .container {
-    max-width: 100%;
-    margin: auto;
-    background: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.hlartikel .main {
-    padding: 20px;
-}
-
-.hlartikel .card {
-    padding: 20px 20px 20px;
-    display: flex ;
-    background: #DFD4C1;
-    margin: 50px auto;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.hlartikel .card  img {
-    width: 150px;
-    height: 150px;
-    object-fit: fill;
-    position: center;
-}
-
-.hlartikel .card .Konten {
-    padding: 30px;
-}
-
-.hlartikel .card {
-    font-size: 25px;
-    margin-bottom: 10px;
->>>>>>> 1c5ed299da688c08793f662f82faa4d038fa2d50
     position: relative;
     width: 200px;
     top: 20px;
@@ -329,7 +275,6 @@
     font-size: 35px;
 }
 
-<<<<<<< HEAD
 .hlartikel .tmptdntgl {
     position: relative;
     color: #A87676;
@@ -338,17 +283,6 @@
     width: 63rem;
     height: 50px;
 }
-=======
-.hlartikel .HrefArtikel {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 10px;
-    position: absolute;
-    object-fit: cover;
-} */
->>>>>>> 1c5ed299da688c08793f662f82faa4d038fa2d50
 
 .hlartikel .tempat {
     position: absolute;
