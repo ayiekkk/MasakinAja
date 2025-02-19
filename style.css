@@ -1,24 +1,14 @@
-/* HALAMAN HOME ---------------------------------------------------------------------------------------------------- */
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
-.hlhome .body {
-    font-family: Arial, sans-serif;
-}
-
-.hlhome .background {
+/* HEADER */
+.background {
     /* background-color: aquamarine; */
     position: relative;
 }
 
-.hlhome .background img {
+.background img {
     width: 100%;
 }
 
-.hlhome .identitas img {
+.identitas img {
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -28,7 +18,7 @@
     left: 0;
 }
 
-.hlhome .identitas label {
+.identitas label {
     font-size: 18px;
     font-weight: 600;
     color: white;
@@ -37,7 +27,7 @@
     position: absolute;
 }
 
-.hlhome .hamburger {
+.hamburger {
     display: inline-block;
     cursor: pointer;
     margin: 26px;
@@ -49,7 +39,7 @@
     top: 0;
 }
 
-.hlhome .side-menu {
+.side-menu {
     position: fixed;
     left: -250px;
     top: 0;
@@ -59,48 +49,48 @@
     transition: left 0.3s ease;
 }
 
-.hlhome .side-menu ul {
+.side-menu ul {
     list-style: none;
     padding-top: 50px;
 }
 
-.hlhome .side-menu ul li {
+.side-menu ul li {
     padding: 20px;
     text-align: center;
     font-size: 20px;
 }
 
-.hlhome .side-menu ul li a {
+.side-menu ul li a {
     text-decoration: none;
     color: white;
     display: flex;
     align-items: center;
 }
 
-.hlhome .side-menu ul li a i {
+.side-menu ul li a i {
     margin-right: 10px;
 }
 
-.hlhome .side-menu.open {
+.side-menu.open {
     left: 0;
 }
 
-.hlhome .hamburger.active i {
+.hamburger.active i {
     transform: rotate(45deg);
 }
 
-.hlhome .hamburger.active i::before {
+.hamburger.active i::before {
     content: '\f00d';
 }
 
-.hlhome .search-container {
+.search-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.hlhome .search-input {
+.search-input {
     padding: 10px 35px 10px 15px;
     font-size: 16px;
     border: 2px solid #ccc;
@@ -109,7 +99,7 @@
     height: 50px;
 }
 
-.hlhome .search-icon {
+.search-icon {
     position: absolute;
     left: 0;
     color: #888;
@@ -117,21 +107,21 @@
     pointer-events: none;
 }
 
-.hlhome .search-input:focus~.search-icon {
+.search-input:focus~.search-icon {
     opacity: 0;
 }
 
-.hlhome .search-input:focus {
+.search-input:focus {
     outline: none;
     /* box-shadow: none; */
     /* border-color: #4CAF50; */
 }
 
-.hlhome .search-input::placeholder {
+.search-input::placeholder {
     color: #aaa;
 }
 
-.hlhome .juduls {
+.juduls {
     position: absolute;
     top: 35%;
     left: 50%;
@@ -140,13 +130,21 @@
     font-size: 70px;
 }
 
-.hlhome .search-input::placeholder {
+.search-input::placeholder {
     padding: 30px;
 }
 
-.hlhome .search-container span {
+.search-container span {
     padding: 15px;
 }
+
+
+/* HALAMAN HOME ---------------------------------------------------------------------------------------------------- */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 
 .hlhome .container-slide {
     position: absolute;
@@ -161,7 +159,7 @@
     border-top: 8px solid #A87676;
     opacity: 100%;
     width: 100%;
-    top: 88rem;
+    top: 90rem;
 }
 
 /* ARTIKEL */
@@ -173,7 +171,7 @@
 
 .hlhome .artikel {
     position: relative;
-    top: 45rem; /*posisi top utama satu div*/
+    top: 48rem; /*posisi top utama satu div*/
     width: 100%;
     height: 35rem;
 }
@@ -236,72 +234,63 @@
 }
 
 /* HALAMAN ARTIKEL ---------------------------------------------------------------------------------------------------- */
-.hlartikel .container {
-    max-width: 100%;
-    margin: auto;
-    background: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.hlartikel .main {
-    padding: 20px;
-}
-
-.hlartikel card {
-    padding: 20px 20px 20px;
-    display: flex ;
-    background: #DFD4C1;
-    margin: 50px auto;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.hlartikel .card  img {
-    width: 150px;
-    height: 150px;
-    object-fit: fill;
-    position: center;
-}
-
-.hlartikel .card .Konten {
-    padding: 30px;
-}
-
-.hlartikel .card {
-    font-size: 25px;
-    margin-bottom: 10px;
-    position: relative;
-}
-
-.hlartikel .Tanggal {
-    font-size: 12px;
-    color: #A87676;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    padding: 20px;
-    font-weight: bold
-}
-.hlartikel .Tempat {
-    font-size: 12px;
-    color: #A87676;
-    position: absolute;
-    left: 180px;
-    bottom: 0;
-    padding: 20px;
-    font-weight: bold
-}
-
-.hlartikel .HrefArtikel {
+.hlartikel a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 10px;
-    position: absolute;
-    object-fit: cover;
 }
+
+.hlartikel .judulawal {
+    margin-top: 5rem;
+    text-align: center;
+    color: #A87676;
+}
+
+.hlartikel .kolom {
+    position: relative;
+    margin-top: 100px;
+    background-color: #DFD4C1;
+    left: 120px;
+    width: 80rem;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 0px 8px 6px 0px rgba(161, 161, 161, 0.7);
+}
+
+.hlartikel .foto {
+    position: relative;
+    width: 200px;
+    top: 20px;
+    left: 20px;
+}
+
+.hlartikel .judulkolom {
+    position: relative;
+    left: 15rem;
+    top: -180px;
+    width: 60rem;
+    height: 10rem;
+    color: #000000;
+    font-size: 35px;
+}
+
+.hlartikel .tmptdntgl {
+    position: relative;
+    color: #A87676;
+    top: -180px;
+    left: 15rem;
+    width: 63rem;
+    height: 50px;
+}
+
+.hlartikel .tempat {
+    position: absolute;
+    text-align: left;
+}
+
+.hlartikel .tanggal {
+    text-align: right;
+}
+
+
 
 /* HALAMAN RESEP ---------------------------------------------------------------------------------------------------- */
 /* * {
@@ -352,8 +341,8 @@
 .hlresep .wrap-kategori {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 60px;
-    margin-bottom: 20em;
+    margin-top: 100px;
+    margin-bottom: 10em;
 }
 
 .hlresep .text {
@@ -363,6 +352,7 @@
 
 .hlresep .text h3 {
     color: #A87676;
+    font-size: 50px;
 }
 
 .hlresep .text h3 span {
@@ -370,7 +360,7 @@
 }
 
 .hlresep .container-resep {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .hlresep .wrap-resep {
@@ -380,6 +370,9 @@
 }
 
 .hlresep .box {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     width: 300px;
     height: 400px;
     background-color: #DFD4C1;
@@ -420,7 +413,7 @@
 
 .hlresep .box .rating {
     position: absolute;
-    bottom: 25px;
+    bottom: 5px;
     left: 0;
     padding-left: 30px;
     font-size: 30px;
@@ -503,6 +496,7 @@
 }
 
 .hlstruktur h2, h3 {
+    margin-top: 100px;
     color: #A87676;
     margin-bottom: 10px;
     font-weight: bold;
@@ -690,6 +684,7 @@
     position: absolute;
     width: 100%;
     height: 44rem;
+    z-index: -1;
 }
 
 .fbgimage {
