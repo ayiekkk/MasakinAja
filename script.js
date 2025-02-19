@@ -10,4 +10,8 @@ hamburger.addEventListener('click', function () {
   sideMenu.classList.toggle('open');
 
   hamburgerIcon.classList.toggle('active');
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 1c5ed299da688c08793f662f82faa4d038fa2d50
