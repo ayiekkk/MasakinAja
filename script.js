@@ -1,4 +1,4 @@
-const hamburger = document.querySelector('#hamburgerIcon');
+const hamburger = document.querySelector('hamburger');
 
 hamburger.addEventListener('click', function () {
 
