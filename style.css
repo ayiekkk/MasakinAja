@@ -209,6 +209,8 @@
 .tombol button:active {
     transform: translateY(4px);
 }
+
+
 /* HALAMAN ARTIKEL ------------------------------------b---------------------------------------------------------------- */
 .hlartikel a {
     text-decoration: none;
@@ -335,17 +337,17 @@
     color: #A69373;
 }
 
-.hlresep .container-resep {
+.container-resep {
     margin-top: 50px;
 }
 
-.hlresep .wrap-resep {
+.wrap-resep {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.hlresep .box {
+.box {
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
@@ -360,7 +362,7 @@
     transition: 400ms all ease;
 }
 
-.hlresep .box .gambar img {
+.box .gambar img {
     width: 229px;
     height: 155px;
     position: absolute;
@@ -371,15 +373,15 @@
     border-radius: 30px;
 }
 
-.hlresep .box .nama {
-    font-size: 20px;
+.box .nama h2{
+    font-size: 25px;
     position: absolute;
     left: 0;
-    top: 190px;
-    padding-left: 20px;
+    top: 11.8rem;
+    padding-left: 10px;
 }
 
-.hlresep .box .deskripsi {
+.box .deskripsi {
     position: absolute;
     left: 0;
     top: 235px;
@@ -387,7 +389,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.hlresep .box .rating {
+.box .rating {
     position: absolute;
     bottom: 5px;
     left: 0;
@@ -395,11 +397,11 @@
     font-size: 30px;
 }
 
-.hlresep .box .rating i {
+.box .rating i {
     color: yellow;
 }
 
-.hlresep .box:hover {
+.box:hover {
     filter: grayscale(0%) opacity(100%);
 }
 
