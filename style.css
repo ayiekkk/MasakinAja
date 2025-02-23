@@ -38,6 +38,7 @@
     right: 0;
     top: 0;
     z-index: 2;
+    color: white;
 }
 
 .side-menu {
@@ -439,34 +440,32 @@
 
 /* ISI */
 
-.hlcredit .Kolom {
+.Kolom {
     padding: 50px;
     margin: 100px;
     height: 300px;
     border-radius: 20px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
-    min-width: 85rem;
-    max-width: 85rem;
 }
 
-.hlcredit .Kolom img {
+.Kolom img {
     width: 220px;
     margin-top: -200px;
     border-radius: 20px;
 }
 
-.hlcredit .nama {
+.nama {
     color: #004292;
     font-size: 2rem;
     margin-left: 250px;
 }
 
-.hlcredit .job {
+.job {
     font-size: 22px;
     margin-left: 250px;
 }
 
-.hlcredit .garis {
+.garis {
     width: 100%;
     border-top: 3.5px solid #000000;
     opacity: 100%;
@@ -475,13 +474,13 @@
     width: 80%;
 }
 
-.hlcredit .bio {
+.bio {
     font-size: 1.5rem;
     margin: 10px 0;
     margin-left: 250px;
 }
 
-.hlcredit .sosmed {
+.sosmed {
     font-size: 1.5rem;
     color: rgb(85, 85, 85);
     font-weight: 700;
