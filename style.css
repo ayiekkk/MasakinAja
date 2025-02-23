@@ -37,16 +37,19 @@
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 2;
+    color: white;
 }
 
 .side-menu {
     position: fixed;
-    left: -250px;
+    right: -250px;
     top: 0;
     width: 250px;
     height: 100%;
     background-color: #3b82f6;
-    transition: left 0.3s ease;
+    transition: right 0.3s ease;
+    z-index: 1;
 }
 
 .side-menu ul {
@@ -72,7 +75,7 @@
 }
 
 .side-menu.open {
-    left: 0;
+    right: 0;
 }
 
 .hamburger.active i {
@@ -140,100 +143,73 @@
 
 
 /* HALAMAN HOME ---------------------------------------------------------------------------------------------------- */
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 
-.hlhome .container-slide {
-    position: absolute;
-    width: 1000px;
-    top: 50rem;
-    left: 15rem;
+.container-slide {
+    width: 75%;
 }
 
-.hlhome .garis {
-    position: absolute;
+.line {
+    margin: 3em 0;
     width: 100%;
-    border-top: 8px solid #A87676;
-    opacity: 100%;
-    width: 100%;
-    top: 90rem;
+    height: 10px;
+    background-color: #A87676;
 }
 
-/* ARTIKEL */
-.hlhome .jdartikel {
-    text-align: center;
+.subjudul {
     color: #A87676;
-    font-size: 50px;
-}
-
-.hlhome .artikel {
-    position: relative;
-    top: 48rem; /*posisi top utama satu div*/
-    width: 100%;
-    height: 35rem;
-}
-
-/* KOLOM */
-.hlhome .jdkolom {
-    position: relative;
-    top: 25px;
     text-align: center;
 }
 
-.hlhome .deskolom {
-    position: absolute;
-    top: 90px;
-    text-align: center;
-    font-size: 22px;
+.subjudul h1 {
+    font-size: 55px;
 }
 
-.hlhome .kolom {
-    position: absolute;
+.wrapped {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kotak {
+    width: 25em;
+    display: inline-block;
+    margin: 15px;
+    padding: 12px;
+    text-align: center;
     background-color: #FFE8B6;
-    border-radius: 10px;
-    width: 30rem;
-    height: 20rem;
+    box-shadow: 0px 5px 5px 0px rgba(100,100,100,0.65);
+    border-radius: 8px;
 }
 
-.hlhome .btnclickartikel {
-    position: absolute;
-    border-radius: 30px;
-    border: none;
-    width: 40rem;
-    height: 65px;
-    top: 30rem;
-    left: 28rem;
-    background-color: #CA8787;
-}
-
-.hlhome .btnclickartikel h1 {
-    position: relative;
-    top: 3px;
-    font-size: 30px;
-    color: aliceblue;
-}
-
-/* TEMPAT */
-.hlhome .tmpt1 {
-    top: 100px;
-    left: 10px;
-}
-
-.hlhome .tmpt2 {
-    top: 100px;
-    left: 32.4rem;
+.kotak:nth-child(2) {
     background-color: #FFD0D0;
 }
 
-.hlhome .tmpt3 {
-    top: 100px;
-    left: 64rem;
+.tombol {
+    display: flex;
+    justify-content: center;
+    margin: 3em 0;
 }
 
-/* HALAMAN ARTIKEL ---------------------------------------------------------------------------------------------------- */
+.tombol button {
+    background-color: tomato;
+    color: white;
+    width: 20%;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(100,100,100,0.5);
+    transition: 400ms ease;
+}
+
+.tombol button:hover {
+    transform: scale(1.2);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5) inset;
+}
+
+.tombol button:active {
+    transform: translateY(4px);
+}
+/* HALAMAN ARTIKEL ------------------------------------b---------------------------------------------------------------- */
 .hlartikel a {
     text-decoration: none;
 }
@@ -447,34 +423,32 @@
 
 /* ISI */
 
-.hlcredit .Kolom {
+.Kolom {
     padding: 50px;
     margin: 100px;
     height: 300px;
     border-radius: 20px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
-    min-width: 85rem;
-    max-width: 85rem;
 }
 
-.hlcredit .Kolom img {
+.Kolom img {
     width: 220px;
     margin-top: -200px;
     border-radius: 20px;
 }
 
-.hlcredit .nama {
+.nama {
     color: #004292;
     font-size: 2rem;
     margin-left: 250px;
 }
 
-.hlcredit .job {
+.job {
     font-size: 22px;
     margin-left: 250px;
 }
 
-.hlcredit .garis {
+.garis {
     width: 100%;
     border-top: 3.5px solid #000000;
     opacity: 100%;
@@ -483,13 +457,13 @@
     width: 80%;
 }
 
-.hlcredit .bio {
+.bio {
     font-size: 1.5rem;
     margin: 10px 0;
     margin-left: 250px;
 }
 
-.hlcredit .sosmed {
+.sosmed {
     font-size: 1.5rem;
     color: rgb(85, 85, 85);
     font-weight: 700;

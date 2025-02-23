@@ -1,4 +1,4 @@
-const hamburger = document.querySelector('#hamburgerIcon');
+const hamburger = document.getElementById('hamburgerIcon');
 
 hamburger.addEventListener('click', function () {
 
@@ -11,3 +11,4 @@ hamburger.addEventListener('click', function () {
 
   hamburgerIcon.classList.toggle('active');
 });
+
