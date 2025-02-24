@@ -38,7 +38,6 @@
     right: 0;
     top: 0;
     z-index: 2;
-    color: white;
 }
 
 .side-menu {
@@ -143,75 +142,100 @@
 
 
 /* HALAMAN HOME ---------------------------------------------------------------------------------------------------- */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 
-.container-slide {
-    width: 75%;
+.hlhome .container-slide {
+    position: absolute;
+    width: 1000px;
+    top: 50rem;
+    left: 15rem;
 }
 
-.line {
-    margin: 3em 0;
+.hlhome .garis {
+    position: absolute;
     width: 100%;
-    height: 10px;
-    background-color: #A87676;
+    border-top: 8px solid #A87676;
+    opacity: 100%;
+    width: 100%;
+    top: 90rem;
 }
 
-.subjudul {
+/* ARTIKEL */
+.hlhome .jdartikel {
+    text-align: center;
     color: #A87676;
+    font-size: 50px;
+}
+
+.hlhome .artikel {
+    position: relative;
+    top: 48rem; /*posisi top utama satu div*/
+    width: 100%;
+    height: 35rem;
+}
+
+/* KOLOM */
+.hlhome .jdkolom {
+    position: relative;
+    top: 25px;
     text-align: center;
 }
 
-.subjudul h1 {
-    font-size: 55px;
-}
-
-.wrapped {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.kotak {
-    width: 25em;
-    display: inline-block;
-    margin: 15px;
-    padding: 12px;
+.hlhome .deskolom {
+    position: absolute;
+    top: 90px;
     text-align: center;
+    font-size: 22px;
+}
+
+.hlhome .kolom {
+    position: absolute;
     background-color: #FFE8B6;
-    box-shadow: 0px 5px 5px 0px rgba(100,100,100,0.65);
-    border-radius: 8px;
+    border-radius: 10px;
+    width: 30rem;
+    height: 20rem;
 }
 
-.kotak:nth-child(2) {
+.hlhome .btnclickartikel {
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    width: 40rem;
+    height: 65px;
+    top: 30rem;
+    left: 28rem;
+    background-color: #CA8787;
+}
+
+.hlhome .btnclickartikel h1 {
+    position: relative;
+    top: 3px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+/* TEMPAT */
+.hlhome .tmpt1 {
+    top: 100px;
+    left: 10px;
+}
+
+.hlhome .tmpt2 {
+    top: 100px;
+    left: 32.4rem;
     background-color: #FFD0D0;
 }
 
-.tombol {
-    display: flex;
-    justify-content: center;
-    margin: 3em 0;
+.hlhome .tmpt3 {
+    top: 100px;
+    left: 64rem;
 }
 
-.tombol button {
-    background-color: tomato;
-    color: white;
-    width: 20%;
-    padding: 10px;
-    border-radius: 12px;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px 0px rgba(100,100,100,0.5);
-    transition: 400ms ease;
-}
-
-.tombol button:hover {
-    transform: scale(1.2);
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5) inset;
-}
-
-.tombol button:active {
-    transform: translateY(4px);
-}
-
-
-/* HALAMAN ARTIKEL ------------------------------------b---------------------------------------------------------------- */
+/* HALAMAN ARTIKEL ---------------------------------------------------------------------------------------------------- */
 .hlartikel a {
     text-decoration: none;
 }
@@ -222,18 +246,12 @@
     color: #A87676;
 }
 
-.hlartikel .container {
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-}
-
 .hlartikel .kolom {
     position: relative;
     margin-top: 100px;
     background-color: #DFD4C1;
-    width: 100%;
-    max-width: 80rem;
+    left: 120px;
+    width: 80rem;
     height: 15rem;
     border-radius: 10px;
     box-shadow: 0px 8px 6px 0px rgba(161, 161, 161, 0.7);
@@ -250,12 +268,10 @@
     position: relative;
     left: 15rem;
     top: -180px;
-    width: 70%;
-    max-width: 50rem;
+    width: 60rem;
     height: 10rem;
     color: #000000;
     font-size: 35px;
-    /* background-color: #000000; */
 }
 
 .hlartikel .tmptdntgl {
@@ -263,8 +279,7 @@
     color: #A87676;
     top: -180px;
     left: 15rem;
-    width: 80%;
-    max-width: 60rem;
+    width: 63rem;
     height: 50px;
 }
 
@@ -274,7 +289,6 @@
 }
 
 .hlartikel .tanggal {
-    position: relative; 
     text-align: right;
 }
 
@@ -347,17 +361,17 @@
     color: #A69373;
 }
 
-.container-resep {
+.hlresep .container-resep {
     margin-top: 50px;
 }
 
-.wrap-resep {
+.hlresep .wrap-resep {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.box {
+.hlresep .box {
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
@@ -372,7 +386,7 @@
     transition: 400ms all ease;
 }
 
-.box .gambar img {
+.hlresep .box .gambar img {
     width: 229px;
     height: 155px;
     position: absolute;
@@ -383,15 +397,15 @@
     border-radius: 30px;
 }
 
-.box .nama h2{
-    font-size: 25px;
+.hlresep .box .nama {
+    font-size: 20px;
     position: absolute;
     left: 0;
-    top: 11.8rem;
-    padding-left: 10px;
+    top: 190px;
+    padding-left: 20px;
 }
 
-.box .deskripsi {
+.hlresep .box .deskripsi {
     position: absolute;
     left: 0;
     top: 235px;
@@ -399,7 +413,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.box .rating {
+.hlresep .box .rating {
     position: absolute;
     bottom: 5px;
     left: 0;
@@ -407,11 +421,11 @@
     font-size: 30px;
 }
 
-.box .rating i {
+.hlresep .box .rating i {
     color: yellow;
 }
 
-.box:hover {
+.hlresep .box:hover {
     filter: grayscale(0%) opacity(100%);
 }
 
@@ -425,32 +439,34 @@
 
 /* ISI */
 
-.Kolom {
+.hlcredit .Kolom {
     padding: 50px;
     margin: 100px;
     height: 300px;
     border-radius: 20px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    min-width: 85rem;
+    max-width: 85rem;
 }
 
-.Kolom img {
+.hlcredit .Kolom img {
     width: 220px;
     margin-top: -200px;
     border-radius: 20px;
 }
 
-.nama {
+.hlcredit .nama {
     color: #004292;
     font-size: 2rem;
     margin-left: 250px;
 }
 
-.job {
+.hlcredit .job {
     font-size: 22px;
     margin-left: 250px;
 }
 
-.garis {
+.hlcredit .garis {
     width: 100%;
     border-top: 3.5px solid #000000;
     opacity: 100%;
@@ -459,13 +475,13 @@
     width: 80%;
 }
 
-.bio {
+.hlcredit .bio {
     font-size: 1.5rem;
     margin: 10px 0;
     margin-left: 250px;
 }
 
-.sosmed {
+.hlcredit .sosmed {
     font-size: 1.5rem;
     color: rgb(85, 85, 85);
     font-weight: 700;
@@ -481,8 +497,8 @@
     text-align: center;
 }
 
-.hlstruktur h2, h3 {
-    margin-top: 100px;
+.hlstruktur h2 {
+    margin-top: 20px;
     color: #A87676;
     margin-bottom: 10px;
     font-weight: bold;
@@ -508,7 +524,7 @@
 .hlstruktur .row {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 75px;
     margin-top: 20px;
     flex-wrap: wrap;
 }
