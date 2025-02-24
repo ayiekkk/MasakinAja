@@ -176,7 +176,7 @@
     padding: 12px;
     text-align: center;
     background-color: #FFE8B6;
-    box-shadow: 0px 5px 5px 0px rgba(100,100,100,0.65);
+    box-shadow: 0px 5px 5px 0px rgba(100, 100, 100, 0.65);
     border-radius: 8px;
 }
 
@@ -197,13 +197,13 @@
     padding: 10px;
     border-radius: 12px;
     font-size: 20px;
-    box-shadow: 5px 5px 5px 0px rgba(100,100,100,0.5);
+    box-shadow: 5px 5px 5px 0px rgba(100, 100, 100, 0.5);
     transition: 400ms ease;
 }
 
 .tombol button:hover {
     transform: scale(1.2);
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5) inset;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5) inset;
 }
 
 .tombol button:active {
@@ -212,70 +212,50 @@
 
 
 /* HALAMAN ARTIKEL ------------------------------------b---------------------------------------------------------------- */
-.hlartikel a {
-    text-decoration: none;
-}
 
-.hlartikel .judulawal {
-    margin-top: 5rem;
+.judulawal {
     text-align: center;
     color: #A87676;
+    margin: 3em 0;
 }
 
-.hlartikel .container {
-    justify-content: center;
-    flex-direction: column;
+.judulawal h1 {
+    font-size: 45px;
+}
+
+.row-12 {
     display: flex;
+    justify-content: center;
 }
 
-.hlartikel .kolom {
-    position: relative;
-    margin-top: 100px;
-    background-color: #DFD4C1;
-    width: 100%;
-    max-width: 80rem;
-    height: 15rem;
-    border-radius: 10px;
-    box-shadow: 0px 8px 6px 0px rgba(161, 161, 161, 0.7);
+.kolom {
+    width: 75%;
+    background-color: #e9d5c4;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 5em;
 }
 
-.hlartikel .foto {
-    position: relative;
-    width: 200px;
-    top: 20px;
-    left: 20px;
+.image-container img {
+    width: 15em;
+    height: 15em;
+    padding: 0.6em;
 }
 
-.hlartikel .judulkolom {
-    position: relative;
-    left: 15rem;
-    top: -180px;
-    width: 70%;
-    max-width: 50rem;
-    height: 10rem;
-    color: #000000;
-    font-size: 35px;
-    /* background-color: #000000; */
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%;
+    padding: 20px;
 }
 
-.hlartikel .tmptdntgl {
-    position: relative;
-    color: #A87676;
-    top: -180px;
-    left: 15rem;
-    width: 80%;
-    max-width: 60rem;
-    height: 50px;
-}
-
-.hlartikel .tempat {
-    position: absolute;
-    text-align: left;
-}
-
-.hlartikel .tanggal {
-    position: relative; 
-    text-align: right;
+.text-container a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -383,7 +363,7 @@
     border-radius: 30px;
 }
 
-.box .nama h2{
+.box .nama h2 {
     font-size: 25px;
     position: absolute;
     left: 0;
@@ -481,7 +461,8 @@
     text-align: center;
 }
 
-.hlstruktur h2, h3 {
+.hlstruktur h2,
+h3 {
     margin-top: 100px;
     color: #A87676;
     margin-bottom: 10px;
@@ -523,6 +504,7 @@
     transform: translateY(-10px) scale(1.10);
     cursor: pointer;
 }
+
 /* RESEP BARU ---------------------------------------------------------------------------------------------------- */
 .hlresepbaru .material-symbols-outlined {
     color: #A87676;
@@ -608,11 +590,11 @@
 }
 
 .hlresepbaru .lingkaran {
-    width: 50px;         
-    height: 50px;        
-    background-color: #fef4f4; 
-    border: 1px solid #1e1d1d; 
-    border-radius: 50%;             
+    width: 50px;
+    height: 50px;
+    background-color: #fef4f4;
+    border: 1px solid #1e1d1d;
+    border-radius: 50%;
     position: relative;
     top: 1rem;
     left: 1rem;
@@ -680,7 +662,7 @@
 
 
 
-.footerutm {    
+.footerutm {
     position: relative;
     top: -80px;
     height: 20rem;
@@ -765,3 +747,4 @@
     color: #505050;
     text-align: center;
 }
+
