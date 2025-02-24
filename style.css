@@ -195,14 +195,8 @@
 .hlhome .kolom {
     position: absolute;
     background-color: #FFE8B6;
-<<<<<<< HEAD
     box-shadow: 0px 5px 5px 0px rgba(100, 100, 100, 0.65);
     border-radius: 8px;
-=======
-    border-radius: 10px;
-    width: 30rem;
-    height: 20rem;
->>>>>>> 0c1ad41b8ec23537d5a20f6d5b664fd34d9a3d65
 }
 
 .hlhome .btnclickartikel {
@@ -240,7 +234,6 @@
     left: 64rem;
 }
 
-<<<<<<< HEAD
 .tombol button {
     background-color: tomato;
     color: white;
@@ -263,12 +256,6 @@
 
 
 /* HALAMAN ARTIKEL ------------------------------------b---------------------------------------------------------------- */
-=======
-/* HALAMAN ARTIKEL ---------------------------------------------------------------------------------------------------- */
-.hlartikel a {
-    text-decoration: none;
-}
->>>>>>> 0c1ad41b8ec23537d5a20f6d5b664fd34d9a3d65
 
 .judulawal {
     text-align: center;
@@ -276,7 +263,6 @@
     margin: 3em 0;
 }
 
-<<<<<<< HEAD
 .judulawal h1 {
     font-size: 45px;
 }
@@ -295,17 +281,6 @@
     justify-content: center;
     overflow: hidden;
     margin-top: 5em;
-=======
-.hlartikel .kolom {
-    position: relative;
-    margin-top: 100px;
-    background-color: #DFD4C1;
-    left: 120px;
-    width: 80rem;
-    height: 15rem;
-    border-radius: 10px;
-    box-shadow: 0px 8px 6px 0px rgba(161, 161, 161, 0.7);
->>>>>>> 0c1ad41b8ec23537d5a20f6d5b664fd34d9a3d65
 }
 
 .image-container img {
@@ -314,7 +289,6 @@
     padding: 0.6em;
 }
 
-<<<<<<< HEAD
 .text-container {
     display: flex;
     flex-direction: column;
@@ -326,34 +300,6 @@
 .text-container a {
     text-decoration: none;
     color: black;
-=======
-.hlartikel .judulkolom {
-    position: relative;
-    left: 15rem;
-    top: -180px;
-    width: 60rem;
-    height: 10rem;
-    color: #000000;
-    font-size: 35px;
-}
-
-.hlartikel .tmptdntgl {
-    position: relative;
-    color: #A87676;
-    top: -180px;
-    left: 15rem;
-    width: 63rem;
-    height: 50px;
-}
-
-.hlartikel .tempat {
-    position: absolute;
-    text-align: left;
-}
-
-.hlartikel .tanggal {
-    text-align: right;
->>>>>>> 0c1ad41b8ec23537d5a20f6d5b664fd34d9a3d65
 }
 
 
@@ -461,13 +407,8 @@
     border-radius: 30px;
 }
 
-<<<<<<< HEAD
 .box .nama h2 {
     font-size: 25px;
-=======
-.hlresep .box .nama {
-    font-size: 20px;
->>>>>>> 0c1ad41b8ec23537d5a20f6d5b664fd34d9a3d65
     position: absolute;
     left: 0;
     top: 190px;
@@ -566,14 +507,9 @@
     text-align: center;
 }
 
-<<<<<<< HEAD
 .hlstruktur h2,
 h3 {
     margin-top: 100px;
-=======
-.hlstruktur h2 {
-    margin-top: 20px;
->>>>>>> 0c1ad41b8ec23537d5a20f6d5b664fd34d9a3d65
     color: #A87676;
     margin-bottom: 10px;
     font-weight: bold;
