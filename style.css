@@ -463,13 +463,13 @@
 
 .hlstruktur h2,
 h3 {
-    margin-top: 100px;
+    margin-top: 20px;
     color: #A87676;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-.hlstruktur .box {
+.hlstruktur .kotaks {
     background: #f8f8f8;
     padding: 12px;
     border-radius: 7px;
@@ -500,7 +500,7 @@ h3 {
 
 }
 
-.hlstruktur .box:hover {
+.hlstruktur .kotaks:hover {
     transform: translateY(-10px) scale(1.10);
     cursor: pointer;
 }
