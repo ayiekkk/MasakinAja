@@ -145,7 +145,10 @@
 /* HALAMAN HOME ---------------------------------------------------------------------------------------------------- */
 
 .container-slide {
-    width: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
 }
 
 .line {
