@@ -145,7 +145,10 @@
 /* HALAMAN HOME ---------------------------------------------------------------------------------------------------- */
 
 .container-slide {
-    width: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
 }
 
 .line {
@@ -465,7 +468,6 @@
 
 .hlstruktur h2,
 h3 {
-    margin-top: 20px;
     color: #A87676;
     margin-bottom: 10px;
     font-weight: bold;
