@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
 /* HEADER */
 .background {
     /* background-color: aquamarine; */
@@ -38,7 +42,7 @@
     right: 0;
     top: 0;
     z-index: 2;
-    color: white;
+    color: #fff;
 }
 
 .side-menu {
@@ -47,7 +51,7 @@
     top: 0;
     width: 250px;
     height: 100%;
-    background-color: #3b82f6;
+    background-color: #A87676;
     transition: right 0.3s ease;
     z-index: 1;
 }
@@ -121,7 +125,8 @@
 }
 
 .search-input::placeholder {
-    color: #aaa;
+    color: #aaaaaa;
+    opacity: 0.6;
 }
 
 .juduls {
@@ -146,6 +151,7 @@
 
 .container-slide {
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     margin-top: 3em;
@@ -173,7 +179,7 @@
 }
 
 .kotak {
-    width: 25em;
+    width: 22em;
     display: inline-block;
     margin: 15px;
     padding: 12px;
@@ -368,6 +374,9 @@
 
 .box .nama h2 {
     font-size: 25px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    color: #000;
     position: absolute;
     left: 0;
     top: 11.8rem;
