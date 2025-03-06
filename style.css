@@ -384,6 +384,11 @@
     padding-left: 10px;
 }
 
+.nama h2 a {
+    color: #000;
+    text-decoration: none;
+}
+
 .box .deskripsi {
     position: absolute;
     left: 0;
