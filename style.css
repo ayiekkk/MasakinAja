@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ponomar&display=swap');
 
 
 /* HEADER */
@@ -524,146 +525,136 @@ h3 {
 }
 
 /* RESEP BARU ---------------------------------------------------------------------------------------------------- */
-.hlresepbaru .material-symbols-outlined {
-    color: #A87676;
-    font-size: 50px;
-    position: absolute;
-    left: 2rem;
+.iconatas {
+    font-family: 'Inter', sans-serif;
+    height: 80px;
 }
 
-.hlresepbaru .JudulBack {
+.judulartikel {
+    position: relative;
+    top: -38px;
+    left: 4rem;
     color: #A87676;
-    position: absolute;
+    width: 50rem;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    text-decoration: none;
+    font-size: 50px !important;
+    color: #A87676;
+    left: 1rem;
     top: 1rem;
+}
+
+.text-gambar {  
+    width: 100%;
+    height: auto;
+    min-height: 23rem;
+}
+
+.text-gambar img {
+    margin-top: 15px;
+    float: left;
+    height: 350px;
+    width: auto;
+    margin-left: 20px;
+    right: 20px;
+}
+
+.text-gambar span {
+    position: relative;
+    left: 10px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 30px;
+}
+
+.ln-resep {
+    width: 100%;
+    height: 5px;
+    background-color: #A87676;
+    margin: 6.25em 0;
+}
+
+.bahanlabel {
+    position: relative;
+    width: 100%;
+    height: 41rem;
+}
+
+.bahanlabel .dummy {
+    position: relative;
+    background-color: #A87676;
+    width: 30rem;
+    height: 38rem;
+    left: 50rem;
+}
+
+.bahanlabel .labelutama {
+    position: relative;
+    background-color: #FFE8B6;
+    width: 60rem;
+    height: 35rem;
+    top: -32rem;
+    left: 12rem;
+    border: 5px solid #A87676;
+}
+
+.bahanlabel .labelutama h4 {
+    position: relative;
+    width: 58rem;
+    font-family: 'Inter', sans-serif;
+    left: 50px;
+    top:  10px;
+}
+
+.lingkaran {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+.lingkaran h1 {
+    position: relative;
     left: 80px;
     font-family: 'Inter', sans-serif;
+    top: 5px;
+    font-weight: bold;
 }
 
-.hlresepbaru .GmbrPP {
-    position: absolute;
-    height: 250px;
-    width: auto;
-    top: 100px;
-    left: 25px;
+.bahan h4 {
+    text-align: start;
+    font-family: "Ponomar", system-ui;
 }
 
-.hlresepbaru .desk1 {
-    position: absolute;
-    left: 280px;
-    top: 100px;
-    font-size: 28px;
-    font-family: 'Istok Web', sans-serif;
-    font-weight: 100;
-    text-align: justify;
-}
-
-.hlresepbaru .desk2 {
-    position: absolute;
-    left: 33px;
-    top: 23rem;
-    font-size: 27px;
-    font-family: 'Istok Web', sans-serif;
-    font-weight: 100;
-    text-align: justify;
-}
-
-/* BEBERAPA GARIS */
-
-.hlresepbaru .garis1 {
-    position: relative;
+.tutorr {
     width: 100%;
-    border-top: 4px solid #A87676;
-    opacity: 100%;
-    width: 100%;
-    top: 500px;
-}
-
-.hlresepbaru .garis2 {
-    position: absolute;
-    width: 100%;
-    border-top: 4px solid #A87676;
-    opacity: 100%;
-    width: 99%;
-    top: 78rem;
-}
-
-/* RESEP */
-
-.hlresepbaru .tmpkan1 {
-    background-color: #A87676;
-    position: absolute;
-    top: 600px;
-    left: 50rem;
-    height: 500px;
-    width: 400px;
-}
-
-.hlresepbaru .tmpkan2 {
-    background-color: #FFE8B6;
-    position: absolute;
-    top: 650px;
-    left: 320px;
-    height: 500px;
-    width: 50rem;
-    border: 5px solid #A87676;
-}
-
-.hlresepbaru .lingkaran {
-    width: 50px;
-    height: 50px;
-    background-color: #fef4f4;
-    border: 1px solid #1e1d1d;
-    border-radius: 50%;
-    position: relative;
-    top: 1rem;
-    left: 1rem;
-    clip-path: circle(50px at center);
-}
-
-.hlresepbaru .lingkarantxt {
-    position: absolute;
-    top: 8px;
-    left: 85px;
-    font-family: 'Inter', sans-serif;
-}
-
-.hlresepbaru .isirsp {
-    position: relative;
-    margin-top: -65px;
-    top: 90px;
-    left: 50px;
-    width: 45rem;
-    height: 100px;
-    font-size: x-large;
-    font-weight: 100;
-}
-
-/* HOW TO MAKE */
-
-.hlresepbaru .tutor {
-    position: absolute;
+    height: auto;
+    border: 4px solid #A87676;
     border-radius: 10px;
-    border: 5px solid #A87676;
-    top: 90rem;
-    left: 10rem;
-    width: 75rem;
-    height: 50rem;
 }
 
-.hlresepbaru .tutor h1 {
-    position: absolute;
-    top: 10px;
-    left: 30px;
-    font-family: 'Inter', sans-serif;
-}
-
-.hlresepbaru .tutor h2 {
+.tutorr h1 {
     position: relative;
-    margin-top: -8px;
-    top: 100px;
+    font-size: 40px;
+    top: 30px;
     left: 30px;
-    font-weight: 100;
     font-family: 'Inter', sans-serif;
+}
+
+.tutorr h4 {
+    position: relative;
+    font-weight: 400;
+    margin-top: 50px;
+    left: 30px;
+    width: 95%;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    text-align: start;
 }
 
 /* FOOTER ---------------------------------------------------------------------------------------------------- */
