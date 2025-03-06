@@ -425,6 +425,10 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+span {
+    font-weight: bold;
+}
+
 .Kolom img {
     width: 220px;
     margin-top: -200px;
